@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify Clone</title>
+  <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">GabrielFy</div>
+      <ul>
+        <li>Inicio</li>
+        <li>Buscar</li>
+        <li>ua Biblioteca</li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="sidebar">
+      <ul>
+        <li>Inicio</li>
+        <li>Busca</li>
+        <li>Sua Biblioteca</li>
+      </ul>
+      <div class="playlists">
+        <h2>Musicas Para Dedicar</h2>
+        <ul id="playlist">
+          <li data-src="song1.mp3">Vem Ser Minha</li>
+          <li data-src="song2.mp3">Iris</li>
+          <li data-src="song3.mp3">Workout</li>
+          <li data-src="song4.mp3">Jazz Classics</li>
+        </ul>
+      </div>
+      <div class="playlists">
+        <h2>Funks</h2>
+        <ul id="playlist">
+          <li data-src="">Fiquei com preguiça</li>
+          <li data-src="">Fiquei com preguiça</li>
+          <li data-src="">Fiquei com preguiça</li>
+          <li data-src="">Fiquei com preguiça</li>
+        </ul>
+      </div>
+    </section>
+    <section class="content">
+      <div class="banner">
+        <h1>Good Morning</h1>
+      </div>
+      <div class="cards">
+        <div class="card">Dedicar</div>
+        <div class="card">Preguiça</div>
+        <div class="card">Preguiça</div>
+        <div class="card">Preguiça</div>
+        <div class="card">Preguiça</div>
+        <div class="card">Preguiça</div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="player">
+      <div class="song-info">
+        <p id="current-song">Select a song</p>
+      </div>
+      <div class="controls">
+        <button id="prev-btn">Prev</button>
+        <button id="play-btn">Play</button>
+        <button id="next-btn">Next</button>
+      </div>
+    </div>
+    <audio id="audio-player" src=""></audio>
+  </footer>
+  <script src="scripts.js"></script>
+</body>
+</html>
